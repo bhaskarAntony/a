@@ -16,6 +16,7 @@ import DevOps from './pages/services/DevOps'
 import QualityAssurance from './pages/services/QualityAssurance'
 import About from './pages/about/About'
 import Contact from './component/contact/Contact'
+import Error from './pages/Error'
 
 
 function App() {
@@ -24,8 +25,8 @@ function App() {
     <BrowserRouter>
     <Header/>
    <Routes>
-    <Route path='/' element={<Home/>}/>
-    <Route path='/services/digital-transformation' element={<Digital/>}/>
+    <Route path='/' element={<Error/>}/>
+    {/* <Route path='/services/digital-transformation' element={<Digital/>}/>
     <Route path='/services/application-development' element={<Application/>}/>
     <Route path='/services/enterprise-software-solutions' element={<Software/>}/>
     <Route path='/services/data-analytics-bi' element={<Analytics/>}/>
@@ -33,13 +34,13 @@ function App() {
 
     <Route path='/services/cybersecurity' element={<Cybersecurity/>}/>
     <Route path='/services/cloud-computing' element={<CloudComputing/>}/>
-    {/* <Route path='/services/it-consulting' element={<ITConsulting/>}/> */}
+    <Route path='/services/it-consulting' element={<ITConsulting/>}/>
     <Route path='/services/devops ' element={<DevOps/>}/>
     <Route path='/services/quality-assurance-testing' element={<QualityAssurance/>}/>
     <Route path='/aboutus' element={<About/>}/>
-    <Route path='/contact-us' element={<Contact/>}/>
+    <Route path='/contact-us' element={<Contact/>}/> */}
    </Routes>
-   <Footer/>
+   {/* <Footer/> */}
     </BrowserRouter>
    </Fragment>
   )
