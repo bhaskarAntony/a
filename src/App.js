@@ -25,8 +25,8 @@ function App() {
     <BrowserRouter>
     <Header/>
    <Routes>
-    <Route path='/' element={<Error/>}/>
-    {/* <Route path='/services/digital-transformation' element={<Digital/>}/>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/services/digital-transformation' element={<Digital/>}/>
     <Route path='/services/application-development' element={<Application/>}/>
     <Route path='/services/enterprise-software-solutions' element={<Software/>}/>
     <Route path='/services/data-analytics-bi' element={<Analytics/>}/>
@@ -38,7 +38,7 @@ function App() {
     <Route path='/services/devops ' element={<DevOps/>}/>
     <Route path='/services/quality-assurance-testing' element={<QualityAssurance/>}/>
     <Route path='/aboutus' element={<About/>}/>
-    <Route path='/contact-us' element={<Contact/>}/> */}
+    <Route path='/contact-us' element={<Contact/>}/> 
    </Routes>
    {/* <Footer/> */}
     </BrowserRouter>
